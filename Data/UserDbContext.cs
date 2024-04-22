@@ -1,6 +1,13 @@
-namespace aadhu.Models;
+﻿using aadhu.Models;
+using Microsoft.EntityFrameworkCore;
 
-using Microsoft.Entityframeworkcore;
+namespace aadhu.Data
 {
-    
+    public class UserDbContext : DbContext
+    {
+        public UserDbContext(DbContextOptions options) : base(options)
+        {
+        }
+        public DbSet<UserDetails>Employees { get; set; }
+    }
 }

@@ -4,8 +4,8 @@ using System.Runtime.Serialization;
 
 namespace aadhu.Models
 {
-    [Table("User")]
-    public class User
+
+    public class UserDetails
     {
         [Key]
         public int Id { get; set; }

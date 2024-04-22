@@ -11,7 +11,7 @@ public class AccountController : Controller
 
     // POST: /Account/Login
     [HttpPost]
-    public ActionResult Login(User model)
+    public ActionResult Login(UserDetails model)
     {
         if (ModelState.IsValid)
         {
@@ -30,7 +30,7 @@ public class AccountController : Controller
 
     // POST: /Account/Register
     [HttpPost]
-    public ActionResult Register(User model)
+    public ActionResult Register(UserDetails model)
     {
         if (ModelState.IsValid)
         {
