@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "BukzdFe3FZA3KseqMsqG8NQN2S3p21bPaI50YbuMtsj4YBlGAft6hhqSkJFycwJdQXr9Ech+utHbCDEI/RtJ7Q==",
-  "success": true,
+  "dgSpecHash": "w+me0HJnSDqrMUYdk4TOK1T2oNfOHqmriOh2pKT/DVNxhawbCzIpVEYfio42AmZInGYeXOjckaxge15DY4vgGw==",
+  "success": false,
   "projectFilePath": "/Users/muralivijayan/Desktop/aadhuJobs/aadhu.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite.Core"
+    }
+  ]
 }

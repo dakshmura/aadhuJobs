@@ -5,7 +5,9 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Microsoft.EntityFrameworkCore.Sqlite.Core >= 8.0.4"
+    ]
   },
   "packageFolders": {
     "/Users/muralivijayan/.nuget/packages/": {}
@@ -48,6 +50,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+            "target": "Package",
+            "version": "[8.0.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -70,5 +78,13 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite.Core"
+    }
+  ]
 }
